@@ -1,0 +1,13 @@
+.venv/
+build/
+dist/
+*.egg-info/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Local calibration contains machine-specific gaze data.
+/calibration.json
+
+# Generated focus heatmaps.
+/reports/
